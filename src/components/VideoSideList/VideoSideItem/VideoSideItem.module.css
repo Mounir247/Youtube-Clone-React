@@ -1,0 +1,41 @@
+
+.VideoSideItemFull .VideoSideItemContainer img{
+    width:28%;
+    height: 75px;
+    margin-right:0;
+}
+
+.VideoSideItemContainer{
+    display:flex; 
+    align-items:center; 
+    cursor: pointer;
+}
+
+.VideoSideItemDescription{
+    padding: 1%;
+}
+
+
+.VideoSideTitle{
+       font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+}
+
+.VideoSideChannelTitle{
+    margin-top: 0%;
+    font-size: 0.7rem;
+    color: rgb(206, 199, 199);
+}
+@media(max-width: 770px){
+    .VideoSideItemFull{
+        border-bottom: 1px solid rgb(150, 149, 149);
+    }
+    .VideoSideTitle{
+        font-size: 0.8rem;
+    }
+    .VideoSideItemFull .VideoSideItemContainer img{
+        width:30%;
+        height: 75px;
+        margin-right:0;
+    }
+}

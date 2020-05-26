@@ -1,0 +1,19 @@
+.VideoSideListFull{
+    display: grid !important;
+    border-radius: 0px;
+}
+.SideListTitle{
+    margin: 1% 0% 0% 0%;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+@media(max-width: 770px){
+    .VideoSideListContainer{
+        width: 100%;
+        margin: auto;
+        
+    }
+    
+}

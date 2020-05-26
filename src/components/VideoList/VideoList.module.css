@@ -1,0 +1,17 @@
+.VideoListFull{
+    margin: 0;
+    padding: 0%;
+}
+
+@media(max-width: 770px){
+    .VideolistContainer{
+        display: block !important;
+        
+    }
+    .VideoListTitle{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        
+    }
+}
